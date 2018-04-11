@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Demo: table-xl-export</title>
+
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="css/app.css" />
+    </head>
+    <body>
+        <div class="page-header">
+            <button type="button" id="btnExport" name="btnExport">Export to Excel</button>
+        </div>
+        <!-- Table -->
+        <table id="tblDemo" class="table table-bordered table-condensed table-exported">
+            <thead>
+                <tr>
+                    <th>Sr. No.</th>
+                    <th>Chapter Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Lorem ipsum dolor sit amet</td>
+                    <td>Quisque odio dolor, dignissim non odio ut, venenatis imperdiet risus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ornare dui eleifend erat consequat semper. In suscipit, sem ut eleifend tempus, nunc justo pretium urna, in mollis orci nunc fringilla felis. Aenean vel mi elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras consectetur hendrerit magna eget sollicitudin. Pellentesque id convallis lacus, nec consequat nisl. Ut id ultrices metus. Aliquam pulvinar et dolor eget sollicitudin. Ut nec quam id mauris consectetur gravida sed vel lorem. Aliquam erat volutpat. Ut varius ipsum eget feugiat pulvinar. Suspendisse potenti.</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Quisque laoreet mattis orci in consequat</td>
+                    <td>Quisque laoreet mattis orci in consequat. Mauris eu justo eget enim ullamcorper vestibulum. Suspendisse gravida tempor egestas. Integer molestie velit quis enim dignissim gravida vel at lectus. Pellentesque mollis, eros sit amet rutrum consequat, ipsum lacus malesuada metus, in consectetur ex nulla eget nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean bibendum ac tortor ut semper. Nullam diam nulla, aliquet ac ultrices a, iaculis non ligula. Vivamus convallis purus in velit ornare, ac gravida odio vulputate. Donec placerat vulputate varius. Curabitur elementum elementum molestie. Nulla et mauris id eros finibus volutpat. Nulla nulla nunc, pulvinar vel leo in, mollis scelerisque enim. Nullam id enim dui. In dapibus vehicula suscipit.</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Mauris lobortis elit eget suscipit cursus</td>
+                    <td>Suspendisse mi risus, ultrices non odio in, dictum suscipit est. Curabitur quis enim tincidunt, faucibus urna eu, molestie erat. Mauris eu odio vulputate, porta ipsum eget, cursus lacus. Fusce a vestibulum felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam eu massa nisi. Etiam et elit mauris. Phasellus rhoncus arcu at consequat vestibulum.</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Nam lobortis eros eu sapien imperdiet</td>
+                    <td>Nam lobortis eros eu sapien imperdiet, vitae dignissim augue tristique. Duis lacinia turpis quis congue bibendum. Aenean rhoncus leo in suscipit tincidunt. Sed mollis dui mi. Sed vehicula, elit ut pretium efficitur, urna leo tincidunt nulla, interdum maximus leo nisl at leo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse ut dapibus metus. Vestibulum velit est, tincidunt sit amet massa eget, luctus tincidunt arcu.</td>
+                </tr>
+            </tbody>
+        </table>
+        <script type="text/javascript" src="js/app.js" defer="defer"></script>
+        <script type="text/javascript" src="js/table-xl-export.js" defer="defer"></script>
+    </body>
+</html>
